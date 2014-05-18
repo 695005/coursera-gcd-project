@@ -1,0 +1,11 @@
+Getting and Cleaning Data
+========================================================
+
+Coursera Getting and Cleaning Data project examining accelerometer data from Samsung Galaxy S smartphones
+
+This R script creates a tidy dataset from the raw data available at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+To run the script:
+1. Extract the above file, which should create a folder named UCI HAR Dataset
+2. Run run_analysis.R, making sure to set your working directory to the directory contaning UCI HAR Dataset
+3. Two text files will be created AccelerometerTidyData.txt and MeanFeatures.txt, which correspond, respectively, to the full tidy dataset and the means of all the variables by subject and activity
